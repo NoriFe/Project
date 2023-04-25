@@ -10,12 +10,37 @@ h2 {
 body {
   background: lightgray;
 }
-section {
-  background: lightsalmon;
-}
+
 .col-1 {
   color: navy;
 }
 nav a {
   color: black;
+}
+.resize {
+  padding: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color:black;
+  border-radius: 5px;
+  
+  background: yellowgreen;
+}
+
+.resize-secondary{
+  background: #f9c802;
+    border: none;
+    color: #000;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    padding: 1.3rem;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border-width: 2px;
+  border-style: solid;
+  border-color:black;
+  
 }
