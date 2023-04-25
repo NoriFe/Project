@@ -1,21 +1,21 @@
-h1{
-    color:blue;
+h1 {
+  color: blue;
 }
-p{
-    color:green;
+p {
+  color: green;
 }
-h2{
-    color:blueviolet;
+h2 {
+  color: blueviolet;
 }
-body{
-    background: lightgray;
+body {
+  background: lightgray;
 }
-section{
-    background: lightsalmon;
+section {
+  background: lightsalmon;
 }
-.col-1{
-    color: navy;
+.col-1 {
+  color: navy;
 }
 nav a {
-    color:black;
+  color: black;
 }

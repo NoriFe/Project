@@ -1,7 +1,7 @@
-console.log('Welcome');
+console.log("Welcome");
 
-const firstName ='Norbert';
-const surName = 'Skwierczynski';
+const firstName = "Norbert";
+const surName = "Skwierczynski";
 const age = 37;
 
 console.log(firstName);
