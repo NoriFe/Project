@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
     <script src="main.js"></script>
     <title>Project</title>
   </head>
@@ -12,36 +13,41 @@
   <body class="body">
     <header>
       <nav class="navigation">
-        <a class="navigation__link" href="our-qualification.html">Our qualification</a>
-        <a class="navigation__link navigation__link--homepage" href="index.html">Main Page</a>
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Main Page</a
+        >
+        <a class="navigation__link" href="our-qualification.html"
+          >Our qualification</a
+        >
       </nav>
     </header>
 
-    <main>
-      <header>
+    <main class="main">
+      <header class="header">
         <h1>
-          This website is created to show our qualifications and what we do and
-          who we are
+          This website is created to show my qualifications and what I do and
+          who I am.<br />
+          <strong class="strong"
+            >page will be updated when something new I will learn</strong
+          >
         </h1>
       </header>
 
       <section class="section">
-        <h2>Who we are?</h2>
-        <p>We are couple who live in Scotland and gain certain qualification</p>
-        <div class="picture">
+        <div>
+          <h2 class="h2">Who I am?</h2>
+          <p>I am a dreamer who was passionate about IT</p>
+          <img src="noriFoto.jpg" alt="My foto" width="150px" height="200px" />
           <h3>Norbert Skwierczynski</h3>
-          <img src="noriFoto.jpg" alt="My foto" width="150px" height="200px">
-          <h4>Joiner and Carpenter, IT developer junior</h4>
-          <p>dodaj cos pozniej</p>
-        </div>
-        <div class="secondary__picture">
-          <h3>Angelika Skwierczynska</h3>
-          <img id="foto" src="angFoto.PNG" alt="My foto" width="200px" height="200px">
-          <h4>Teacher</h4>
-          <p>dodaj cos pozniej</p>
         </div>
       </section>
+      <aside class="aside">
+        <h2>links to my work</h2>
+      </aside>
+
+      <footer class="footer">
+        © 2023 Norbert Skwierczynski
+      </footer>
     </main>
-    <footer>This page is created by Norbert Skwierczynski</footer>
   </body>
 </html>
