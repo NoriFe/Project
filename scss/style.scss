@@ -23,6 +23,7 @@ html {
     grid-template-areas:
       "header header header"
       "section article aside"
+      "section section section"
       "footer footer footer";
     grid-template-columns: 300px 1fr 200px;
     column-gap: 30px;
