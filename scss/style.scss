@@ -39,20 +39,39 @@ html {
   
   .section {
     grid-area: section; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    &__picture{
+        border-radius: 50%;
+    }
+    &__title{
+        color: blanchedalmond;
+        &::before{
+            content:"";
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin-right: 10px;
+            background: rgba(2, 1, 1, 0.178);
+        }
+
+    }
+
   }
   .article{
     grid-area: article;
-  
-  }
-  .div{
-    display: flex;
-    text-align: center;
-    justify-content: center; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
     font-size:130%;
     color: blanchedalmond;
-  }
-  .aside {
+   }
+ .aside {
     grid-area: aside;
+    color: blanchedalmond;
   }
   .footer {
     min-height: 30vh;
@@ -60,8 +79,8 @@ html {
     grid-column-start: 1;
     grid-column-end: 4;
     display: flex;
-    justify-content: space-around;
-    align-content: flex-end;
+    align-items: center;
+    justify-content: center;
     }
    @media (min-width: 420px) {
 

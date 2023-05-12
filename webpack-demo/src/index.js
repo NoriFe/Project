@@ -1,6 +1,8 @@
-import {welcome} from './welcome.js';
 
-console.log(welcome('stranger'));
+import moment from 'moment';
+
+console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
+console.log('hello stranger');
 console.log('Welcome to my first Website ;)');
 
 const deathStar= {

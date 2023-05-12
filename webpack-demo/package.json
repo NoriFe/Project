@@ -1,16 +1,19 @@
 {
-  "name": "project",
+  "name": "webpack-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "/Project/webpack-demo/src/index.js",
+  "main": "index.js",
   "scripts": {
-    "sass":"npx node-sass -w scss/style.scss style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^8.0.0"
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
   }
 }

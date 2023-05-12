@@ -27,20 +27,35 @@ html {
   text-align: center; }
 
 .section {
-  grid-area: section; }
+  grid-area: section;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: end; }
+  .section__picture {
+    border-radius: 50%; }
+  .section__title {
+    color: blanchedalmond; }
+    .section__title::before {
+      content: "";
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      margin-right: 10px;
+      background: rgba(2, 1, 1, 0.178); }
 
 .article {
-  grid-area: article; }
-
-.div {
+  grid-area: article;
   display: flex;
-  text-align: center;
+  align-items: center;
   justify-content: center;
+  text-align: center;
   font-size: 130%;
   color: blanchedalmond; }
 
 .aside {
-  grid-area: aside; }
+  grid-area: aside;
+  color: blanchedalmond; }
 
 .footer {
   min-height: 30vh;
@@ -48,8 +63,8 @@ html {
   grid-column-start: 1;
   grid-column-end: 4;
   display: flex;
-  justify-content: space-around;
-  align-content: flex-end; }
+  align-items: center;
+  justify-content: center; }
 
 @media (min-width: 420px) {
   .navigation__link {
