@@ -13,7 +13,9 @@ html {
 
 .main {
   display: grid;
-  grid-template-areas: "header header header" "section article aside"  "footer footer footer";
+  grid-template-areas: "header header header"
+ "section article aside"
+  "footer footer footer";
   grid-template-columns: 300px 1fr 200px;
   column-gap: 30px;
   row-gap: 70px; }
