@@ -51,7 +51,10 @@ html {
   justify-content: center;
   text-align: center;
   font-size: 130%;
-  color: blanchedalmond; }
+  color: blanchedalmond;
+  padding: 70px; }
+  .article__story {
+    padding: 200 px; }
 
 .aside {
   grid-area: aside;

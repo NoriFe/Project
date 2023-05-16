@@ -69,6 +69,10 @@ html {
     text-align: center; 
     font-size:130%;
     color: blanchedalmond;
+    padding: 70px;
+    &__story{
+      padding:200 px;
+    }
    }
  .aside {
     grid-area: aside;
@@ -86,11 +90,7 @@ html {
         margin-right: 10px;
         background: rgba(2, 1, 1, 0.178);
       }
-      
-
     }
-   
-    
   }
   .footer {
     min-height: 30vh;
@@ -116,10 +116,9 @@ html {
       display: flex;
       justify-content: center;
       text-decoration: none;
-   }
-  
+      }}
+      
+   
  
-  }
   
   
-    
