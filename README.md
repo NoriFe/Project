@@ -1,6 +1,6 @@
-![cover](../photos/Capture.PNG)
+![cover](./photos/Capture.PNG)
 # Project
-Thats mine web site where I will try add all my work
+Hello You all welcome to my little project 
 ## Front End 
 I started **Front End course** which give me a lot of new experiance.
 
