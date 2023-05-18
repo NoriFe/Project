@@ -46,7 +46,12 @@ html {
     text-align: end;
     &__picture{
         border-radius: 50%;
+        transition: transform 1.25s linear;
+        &:hover{
+          transform: scale(1.5);
+        }
     }
+        
     &__title{
         color: blanchedalmond;
         &::before{
@@ -55,7 +60,10 @@ html {
             width: 12px;
             height: 12px;
             margin-right: 10px;
-            background: rgba(2, 1, 1, 0.178);
+            border-radius: 3px;
+            background: rgba(191, 200, 214, 0.411);
+          
+            
         }
 
     }
@@ -88,7 +96,7 @@ html {
         width: 12px;
         height: 12px;
         margin-right: 10px;
-        background: rgba(2, 1, 1, 0.178);
+        background:  rgba(191, 200, 214, 0.411);
       }
     }
   }
@@ -100,10 +108,31 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+&__logos{
+      padding-left: 16px;
     }
-    .footer__logos{
-      padding-left: 19px;
+@keyframes object {
+    0%{
+    transform: scale(1)rotate(360deg);
     }
+    50%{
+      transform: scale(2) rotate(-360deg);
+    }
+    100%{
+      transform: scale(1)rotate(360deg);
+    }
+}   
+.footer__animation{
+  display: inline-block;
+  padding-right: 10px;
+  animation: object 1.5s ease-in-out 3 alternate;
+} 
+
+        }
+    
+    
+
+
    @media (min-width: 420px) {
 
     .navigation__link {
@@ -117,8 +146,8 @@ html {
       justify-content: center;
       text-decoration: none;
       }}
-      
+
    
- 
-  
-  
+   
+     
+     
