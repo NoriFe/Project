@@ -1,4 +1,4 @@
-![cover](./Capture.PNG)
+![cover](../photos/Capture.PNG)
 # Project
 Thats mine web site where I will try add all my work
 ## Front End 
